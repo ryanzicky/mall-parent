@@ -31,7 +31,7 @@ class MallSearchApplicationTests {
 
 		SearchResponse search = client.search(searchRequest, ElasticsearchConfig.COMMON_OPTIONS);
 
-		System.out.println(search);
+		System.out.println(search.toString());
 	}
 
 	@Test
