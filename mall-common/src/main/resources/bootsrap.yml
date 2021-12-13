@@ -1,0 +1,8 @@
+spring:
+  port: 8081
+  application:
+    name: mall-search
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://47.105.171.231:8848/

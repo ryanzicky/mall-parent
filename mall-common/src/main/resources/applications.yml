@@ -1,3 +1,0 @@
-nacos:
-  config:
-    server-addr: http://47.105.171.231:8848/
