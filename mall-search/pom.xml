@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>com.mall</groupId>
 		<artifactId>mall-parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>${mall.version}</version>
 	</parent>
 
 	<groupId>com.mall.search</groupId>
 	<artifactId>mall-search</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${mall.version}</version>
 	<name>mall-search</name>
 	<description>商城搜索服务</description>
 
@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>com.mall.common</groupId>
 			<artifactId>mall-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${mall.version}</version>
 		</dependency>
 
 		<dependency>

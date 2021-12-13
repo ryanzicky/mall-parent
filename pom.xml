@@ -11,7 +11,7 @@
 
 	<groupId>com.mall</groupId>
 	<artifactId>mall-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${mall.version}</version>
 	<name>mall-parent</name>
 	<packaging>pom</packaging>
 	<description>商城</description>
@@ -25,6 +25,7 @@
 	<!-- SpringCloud 与SpringBoot 版本对应：https://start.spring.io/actuator/info -->
 	<properties>
 		<java.version>1.8</java.version>
+		<mall.version>0.0.1-SNAPSHOT</mall.version>
 	</properties>
 
 	<dependencies>
