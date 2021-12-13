@@ -33,3 +33,4 @@ build/
 .vscode/
 **/target
 **/.gitignore
+./mall-search.zip

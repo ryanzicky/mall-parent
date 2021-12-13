@@ -19,11 +19,14 @@
 	<modules>
 		<module>mall-search</module>
 		<module>mall-common</module>
+		<module>mall-web</module>
 	</modules>
 
+	<!-- SpringCloud 与SpringBoot 版本对应：https://start.spring.io/actuator/info -->
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
