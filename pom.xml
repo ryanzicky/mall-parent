@@ -20,6 +20,9 @@
 		<module>mall-search</module>
 		<module>mall-common</module>
 		<module>mall-web</module>
+		<module>mall-gateway</module>
+		<module>renren-generator</module>
+		<module>renren-fast</module>
 	</modules>
 
 	<!-- SpringCloud 与SpringBoot 版本对应：https://start.spring.io/actuator/info -->
